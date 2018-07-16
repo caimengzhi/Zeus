@@ -8,7 +8,7 @@
 @project: cmz
 @file: 图形.py
 @time: 2018/7/16 17:34
-@desc:
+@desc:  test on python3.x
 """
 # from PIL import Image, ImageFont, ImageDraw
 # text = "EwWIieAT"
@@ -58,3 +58,7 @@ for t in range(4):
 image = image.filter(ImageFilter.BLUR)
 image.save('code.jpg', 'jpeg')
 image.show()
+
+
+# python3 图形.py
+# 然后输出随机字符串
